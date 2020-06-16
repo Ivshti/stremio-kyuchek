@@ -9,5 +9,5 @@
 
 ```
 node generate.js
-git add dist/* && git commit -m 'dist updated'
+git add docs/* && git commit -m 'docs updated'
 ```
