@@ -1,0 +1,29 @@
+{
+  "name": "stremio-kyuchek",
+  "version": "1.0.0",
+  "description": "Кючек addon for Stremio",
+  "main": "generate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ivshti/stremio-kyuchek.git"
+  },
+  "keywords": [
+    "kyuchek",
+    "chalga",
+    "addon",
+    "stremio"
+  ],
+  "author": "Ivo Georgiev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ivshti/stremio-kyuchek/issues"
+  },
+  "homepage": "https://github.com/Ivshti/stremio-kyuchek#readme",
+  "dependencies": {
+    "js-yaml": "^3.14.0",
+    "mkdirp": "^1.0.4"
+  }
+}

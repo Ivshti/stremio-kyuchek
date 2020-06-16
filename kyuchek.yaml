@@ -1,0 +1,11 @@
+addon:
+  name: Кючек addon
+  version: 1.0
+
+catalog:
+  genre: kyuchek
+  items:
+    болести:
+      - thumb: something
+      - https://www.youtube.com/watch?v=naw4PUXesFY
+
