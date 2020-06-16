@@ -1,1 +1,1 @@
-{"id":"com.autogen.kyuchek","name":"КЮЧЕК","version":1,"description":"вечните класики","resources":["meta"],"types":["kyuchek"],"idPrefixes":["com.autogen.kyuchek:"],"catalogs":[{"type":"kyuchek","id":"main","name":"КЮЧЕК"}]}
+{"id":"com.autogen.kyuchek","name":"КЮЧЕК","version":"1.0.0","description":"вечните класики","resources":["meta"],"types":["kyuchek"],"idPrefixes":["com.autogen.kyuchek:"],"catalogs":[{"type":"kyuchek","id":"main","name":"КЮЧЕК"}]}

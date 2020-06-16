@@ -17,7 +17,7 @@ async function generateAddon(yamlPath, addonPath) {
 	await writeToFile(path.join(addonPath, 'manifest.json'), {
 		id,
 		name: doc.addon.name,
-		version: doc.addon.version,
+		version: typeof doc.addon.version === 'string' ? doc.addon.version : `${doc.addon.version}.0.0`,
 		description: doc.addon.description || '',
 		resources: ['meta'],
 		types: [cat.type],
@@ -69,7 +69,9 @@ function videoToObject(video) {
 	return {
 		id: v,
 		title: video.title || '',
-		streams: [{ yt_id: v }],
+		streams: [{ ytId: v }],
+		// hack for legacy stremio
+		stream: { ytId: v },
 		thumbnail: `https://i.ytimg.com/vi/${v}/hqdefault.jpg`,
 	}
 }
