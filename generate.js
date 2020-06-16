@@ -26,6 +26,15 @@ async function generateAddon(yamlPath, addonPath) {
 	})
 	const catEntries = Object.entries(cat.items)
 	const metas = catEntries.map(([name, items]) => {
+		const videos = items
+			.map(x => {
+				if (typeof x === 'string' && x.includes('youtube.com')) return { url: x, title: '' }
+				if (typeof x !== 'object') return null
+				const entries = Object.entries(x)
+				if (entries.length === 1 && entries[0][1].includes('youtube.com')) return { url: entries[0][1], title: entries[0][0] } 
+			})
+			.filter(x => x)
+		if (!videos.length) throw new Error(`catalog ${name} does not have any youtube videos listed`)
 		const thumbEntry = items.find(x => x.thumb)
 		const thumb = thumbEntry ? thumbEntry.thumb : videoToThumb(videos[0])
 		return {
@@ -35,21 +44,15 @@ async function generateAddon(yamlPath, addonPath) {
 			posterShape: 'landscape',
 			background: thumb,
 			type: cat.type,
+			videos: videos.map(videoToObject)
 		}
 	})
-	await writeToFile(path.join(addonPath, `catalog/${cat.type}/main.json`), { metas })
-	await Promise.all(catEntries.map(([name, items], i) => {
-		const videos = items.filter(x => typeof x === 'string' && x.includes('youtube.com'))
-		if (!videos.length) throw new Error(`catalog ${name} does not have any youtube videos listed`)
-		const metaId = `${id}:${name}`
-		return writeToFile(path.join(addonPath, `meta/${cat.type}/${metaId}.json`), {
-			meta: {
-				...metas[i],
-				videos: videos.map(videoToObject)
-			}
-		})
-		
-	}))
+	await writeToFile(path.join(addonPath, `catalog/${cat.type}/main.json`), {
+		metas: metas.map(x => ({ ...x, videos: undefined }))
+	})
+	await Promise.all(metas.map(meta =>
+		writeToFile(path.join(addonPath, `meta/${cat.type}/${meta.id}.json`), { meta })
+	))
 }
 
 async function writeToFile(fpath, content) {
@@ -57,15 +60,15 @@ async function writeToFile(fpath, content) {
 	await writeFile(fpath, JSON.stringify(content))
 }
 
-function videoToThumb(videoUrl) {
-	const { v } = url.parse(videoUrl, true).query
+function videoToThumb(video) {
+	const { v } = url.parse(video.url, true).query
 	return `https://i.ytimg.com/vi/${v}/hqdefault.jpg`
 }
-function videoToObject(videoUrl) {
-	const { v } = url.parse(videoUrl, true).query
+function videoToObject(video) {
+	const { v } = url.parse(video.url, true).query
 	return {
 		id: v,
-		title: '', // @TODO
+		title: video.title || '',
 		streams: [{ yt_id: v }],
 		thumbnail: `https://i.ytimg.com/vi/${v}/hqdefault.jpg`,
 	}
