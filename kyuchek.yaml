@@ -1,9 +1,10 @@
 addon:
-  name: Кючек addon
+  name: КЮЧЕК
+  description: вечните класики
   version: 1.0
 
 catalog:
-  genre: kyuchek
+  type: kyuchek
   items:
     болести:
       - thumb: something
