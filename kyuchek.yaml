@@ -29,6 +29,7 @@ catalog:
       - unknown - сладурана кючек: https://www.youtube.com/watch?v=-UNO0INHrqQ
       - DJ CEKO - изненада: https://www.youtube.com/watch?v=oPnkL1stHco
       - Рико Бенд - Gipsy Camp: https://www.youtube.com/watch?v=k8-F2O3HlLg
+      - Алчо - Комшийката: https://www.youtube.com/watch?v=OQsy7oCkw7s
     pop culture:
       - unknown - покемон кючек: https://www.youtube.com/watch?v=qdXPIeQesUo
       - Динго и асан баба - кораба: https://www.youtube.com/watch?v=g1o9yCuiraw
@@ -41,12 +42,13 @@ catalog:
       - Рико Бенд - Спайдърмен: https://www.youtube.com/watch?v=z2YDIj7ohfM
     pop folk:
       - малките пантерки - осем осем осем: https://www.youtube.com/watch?v=44xPJG37ThA
-      - ивана - 100 патрона: https://www.youtube.com/watch?v=V0-PRXaF_qo
       - АЗИС - сен тропе: https://www.youtube.com/watch?v=BplsGX5eLLo
       - АЗИС - хоп: https://www.youtube.com/watch?v=P9sQZLtsfp8
       - АЗИС - хабиби: https://www.youtube.com/watch?v=DtoM41TH7HM
       - АЗИС - кажи честно: https://www.youtube.com/watch?v=1DfbhdG0tEk
       - Кондьо - Show да става: https://www.youtube.com/watch?v=x6Z6g1-przY
+    хора:
+      - Орк. Козари - Индиански: https://www.youtube.com/watch?v=GKNHXJ5f7_w
     животни:
       - Орк Кнежа - Бясно Куче: https://www.youtube.com/watch?v=0kgziLOwZLo
       - unknown - кокошката: https://www.youtube.com/watch?v=evlGUz8Yqe8
@@ -56,19 +58,25 @@ catalog:
       - unknown - bat zondi praseto: https://www.youtube.com/watch?v=rDOEgl4pKH4
       - unknown - риба меч: https://www.youtube.com/watch?v=5AfCiQpH8vM
       - Кути - Крави: https://www.youtube.com/watch?v=a9NpmjIRXec
+      - Милко Калаиджиев - Луда крава: https://www.youtube.com/watch?v=OXRfEcypydY
       - Орк. Каменци - Костенурка: https://www.youtube.com/watch?v=ZafqAIvOKzE
       - Орк. Кoзари - Бяла мечка: https://www.youtube.com/watch?v=7EIaq37xjws
+      - Орк. Фаворит - Черна котка: https://www.youtube.com/watch?v=rgUgOw5Q4jo
+      - Орк. Кристали - Gozilla: https://www.youtube.com/watch?v=8C1e4PxOwNk
     храна:
       - Орк. Рико бенд - Краставица: https://www.youtube.com/watch?v=BJvhaDT-5Kg
-      - Dj West - zelena salata: https://www.youtube.com/watch?v=5jq4c3z-zMA
+      - Dj West - зелена салата: https://www.youtube.com/watch?v=5jq4c3z-zMA
       - Oрк. Варненци - Пържени картофки: https://www.youtube.com/watch?v=fhiZNY45iwE
       - Oрк. Варненци - Тез' червени домати: https://www.youtube.com/watch?v=OgRiJ3yc4ew
     мазно:
       - Babi Minune si Susanu - Ia sistem turbat Chak Thak: https://www.youtube.com/watch?v=_zO8mnLTqmo
       - Наско ментата - шушана: https://www.youtube.com/watch?v=FkFfveMtmfw
+      - Орк. Ориент - Рамзи: https://www.youtube.com/watch?v=lvvV7_CWeUI
+      - Орк. Фаворит - железари: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+      - Djamaika - Сливенски: https://www.youtube.com/watch?v=xVK-_sLIUUw
     коли:
       - thumb: https://user-images.githubusercontent.com/1247629/84754778-2440d900-afc1-11ea-93b4-0b95d0207654.png
-      - Орк Кристали - Карам хубава кола: https://www.youtube.com/watch?v=LgrdumupFJc
+      - Орк. Кристали - Карам хубава кола: https://www.youtube.com/watch?v=LgrdumupFJc
       - БГ Мафия - караш АМГ мерцедес: https://www.youtube.com/watch?v=egSq8dpHyxM
       - Adnan Beats - 90 60 90: https://www.youtube.com/watch?v=3r-LTZBWr78
       - Тихомир - Ламборджини: https://www.youtube.com/watch?v=xdcG-7tIYgQ
@@ -80,3 +88,26 @@ catalog:
       - Коци и Орк. Ботевград - Мерцедес: https://www.youtube.com/watch?v=x8NSLxnQsFc
       - ТЕОДОРА - газ, газ: https://www.youtube.com/watch?v=wRUaIozxkIQ
       - Яница - твоето ферари: https://www.youtube.com/watch?v=8D0xrac2K6k
+    класическа музика:      
+      - ивана - 100 патрона: https://www.youtube.com/watch?v=V0-PRXaF_qo
+      - Валдес - Жега: https://www.youtube.com/watch?v=5syA_kyraUg
+      - Тошко тодоров - Радка Пиратка: https://www.youtube.com/watch?v=h_MHwRf0_Ok
+      - Мира - Цепката: https://www.youtube.com/watch?v=l7g3dO1FJww
+      - Радо Шишарката - Тигре тигре: https://www.youtube.com/watch?v=RMtz9aokaio
+      - Андон Събев - Камъните Падат: https://www.youtube.com/watch?v=JvxD8PYSUzE
+      - Недялко Лазаров - Обре Недялко: https://www.youtube.com/watch?v=5Sr7S7Lqp1M
+      - Симпатяги - За милиони няма закони: https://www.youtube.com/watch?v=TVMTaIIFQgQ
+      - Глория - Скъпи купи ми нещо: https://www.youtube.com/watch?v=hbNbyEOCTY0
+      - Братя Кулинови - Тирбушона: https://www.youtube.com/watch?v=wJNtQQQusL8
+      - Руси Русев - На бургаската гара: https://www.youtube.com/watch?v=5ZmOw7j4D6E
+      - Братя Кулинови - Шкембето: https://www.youtube.com/watch?v=qTVebcmDv_o
+      - Братя Кулинови - Боц-Маан: https://www.youtube.com/watch?v=8Nvj8MZBYlw
+      - Орк. Аполон - Бай Иван: https://www.youtube.com/watch?v=ZV-3sIAvyzI
+      - Росица Пейчева - Дай ми тате малко парички: https://www.youtube.com/watch?v=YvjzB3zQDRg
+      - Кали - Наща система 4 4 2: https://www.youtube.com/watch?v=7bmO8JW193Q
+      - Валдес - Рибна Фиеста: https://www.youtube.com/watch?v=kkrV0SAiTHA
+      - Нелина - Бял Мерцедес: https://www.youtube.com/watch?v=Y6KzsvwgvrY
+      - Сашо Роман - 7 дена 7 нощи: https://www.youtube.com/watch?v=9SzOpAttuUI
+      - Милко Калайджиев - Къде си, батко: https://www.youtube.com/watch?v=8rRd48LtSK4
+      - Луна - Тук там, тук там: https://www.youtube.com/watch?v=Jm266ZgsWTw
+      - Фанча - Завърти Го Де: https://www.youtube.com/watch?v=DNVcCli_y3U
