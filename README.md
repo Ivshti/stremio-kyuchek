@@ -5,7 +5,15 @@
 ![addon](https://i.ytimg.com/vi/4z4D0F37VHE/hqdefault.jpg)
 
 
+Has chalga too
+
+## How to install
+
+Go to the stremio addon catalog and search kyuchek, or use this URL https://ivshti.github.io/stremio-kyuchek/manifest.json
+
 ## How to update content
+
+First, `npm install`
 
 ```
 node generate.js
