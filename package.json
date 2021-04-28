@@ -1,6 +1,6 @@
 {
   "name": "stremio-kyuchek",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Кючек addon for Stremio",
   "main": "generate.js",
   "scripts": {
