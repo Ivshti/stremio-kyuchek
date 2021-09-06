@@ -24,6 +24,8 @@
   "homepage": "https://github.com/Ivshti/stremio-kyuchek#readme",
   "dependencies": {
     "js-yaml": "^3.14.0",
-    "mkdirp": "^1.0.4"
+    "mathjs": "^9.4.4",
+    "mkdirp": "^1.0.4",
+    "nerdamer": "^1.1.12"
   }
 }
