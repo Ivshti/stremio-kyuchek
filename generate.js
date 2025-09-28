@@ -71,7 +71,8 @@ function videoToObject(video) {
 		title: video.title || '',
 		streams: [{ ytId: v }],
 		// hack for legacy stremio
-		stream: { ytId: v },
+		// disabled because it's not used anymore and it can break core when we have both
+		// stream: { ytId: v },
 		thumbnail: `https://i.ytimg.com/vi/${v}/hqdefault.jpg`,
 	}
 }
