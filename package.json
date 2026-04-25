@@ -4,7 +4,8 @@
   "description": "Кючек addon for Stremio",
   "main": "generate.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "validate:videos": "node validate-videos.js"
   },
   "repository": {
     "type": "git",
